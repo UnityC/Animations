@@ -14,6 +14,7 @@ struct RotateCornerModifier : ViewModifier {
         content
             .rotationEffect(.degrees(amount), anchor: anchor)
             .clipped()
+        
     }
 }
 
